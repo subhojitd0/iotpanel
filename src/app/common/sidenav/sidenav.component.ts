@@ -78,7 +78,7 @@ export class SideNavComponent implements OnInit {
       "username": this.user
     };
     this.apiService.post(SENSOR_API, json).then((res: any)=>{ 
-      debugger;
+      
       if(res.zone){
         this.isAvailable = false;
       }

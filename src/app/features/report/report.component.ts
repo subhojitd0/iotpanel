@@ -56,7 +56,7 @@ export class ReportComponent implements OnInit {
    }
 
    ngOnInit() : void {
-     debugger;
+     
      this.sensor = localStorage.getItem("selectedsensor");
      this.sensortype = localStorage.getItem("selectedsensortype");
     this.reportdata = JSON.parse(localStorage.getItem("reportdata"));
